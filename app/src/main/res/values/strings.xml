@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My_first_Application</string>
+    <string name="sign_in">sign in</string>
+    <string name="create_an_account">Create an account</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="bring_nature_home">Bring nature home</string>
+    <string name="let_s_plant_with_us">Let\'s plant with us</string>
+    <string name="cactus">cactus</string>
+</resources>

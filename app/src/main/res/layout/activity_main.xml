@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eef4f5"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/main_LBL_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:text="Let's plant with us"
+        android:textColor="#000000"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/main_LBL_secondtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/main_LBL_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        android:text="Bring nature home"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/main_IMG_cactus"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_below="@+id/main_LBL_secondtitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:contentDescription="cactus"
+        android:scaleType="fitCenter"
+        android:src="@drawable/img_cactus" />
+
+
+    <Button
+        android:id="@+id/main_BTN_signin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/main_IMG_cactus"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#ff7e6f"
+        android:paddingHorizontal="90dp"
+        android:paddingVertical="13dp"
+        android:text="sign_in"
+        android:textSize="15sp" />
+    <!--android:background="@drawable/btn_rounded"-->
+
+
+    <TextView
+        android:id="@+id/main_LBL_create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/main_BTN_signin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Create an account"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/main_LBL_forget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/main_LBL_create"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Forgot password"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+</RelativeLayout>
